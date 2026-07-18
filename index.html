@@ -22,6 +22,7 @@
         }
         h1 { color: #2c3e50; text-align: center; }
         h2 { color: #34495e; margin-top: 30px; border-bottom: 2px solid #ecf0f1; padding-bottom: 10px;}
+        h3 { color: #4a5568; margin-top: 20px; }
         a { color: #3498db; text-decoration: none; }
         a:hover { text-decoration: underline; }
         .last-updated { color: #7f8c8d; font-style: italic; text-align: center; margin-bottom: 40px;}
@@ -32,41 +33,69 @@
 <body>
     <div class="container">
         <h1>Privacy Policy for Q2048</h1>
-        <p class="last-updated">Last updated: July 4, 2026</p>
+        <p class="last-updated">Last updated: July 18, 2026</p>
 
         <p>QuarkVortexLabs ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how your information is collected, used, and disclosed by Q2048 ("the App"). This Privacy Policy applies solely to the App and its related services.</p>
 
         <h2>1. Information We Collect</h2>
-        <p>The App itself does not actively collect, store, or transmit personally identifiable information (PII) to our servers. However, the App uses third-party services that may collect information used to identify you.</p>
-        
+        <p>The App itself does not actively collect, store, or transmit personally identifiable information (PII) to our servers. However, the App uses third-party services that may collect information used to identify you or your device.</p>
+
         <h3>Google Play Games Services</h3>
-        <p>The App integrates with Google Play Games Services to provide features such as global leaderboards. When you log in with your Google Play Games account, Google collects data in accordance with their privacy policy. We may receive your Google Play Games profile information (such as your username) and gameplay scores to display on leaderboards.</p>
+        <p>The App integrates with Google Play Games Services to provide features such as global leaderboards, achievements, and cloud save. When you sign in with your Google Play Games account, Google collects data in accordance with their privacy policy. We may receive your Google Play Games profile information (such as your display name) and gameplay scores to display on leaderboards and to sync your progress across devices.</p>
+
+        <h3>Google AdMob</h3>
+        <p>The App displays advertisements provided by Google AdMob. AdMob may collect and process certain data to serve ads, including:</p>
+        <ul>
+            <li><strong>Advertising ID:</strong> Your device's advertising identifier, used to serve personalized ads (where consent is given) and to measure ad performance.</li>
+            <li><strong>Device information:</strong> Device type, operating system version, screen size, and network connection type.</li>
+            <li><strong>Usage data:</strong> Information about how you interact with ads shown in the App.</li>
+        </ul>
+        <p>Where required by law (e.g., in the EEA, UK, and Switzerland), the App will request your consent before serving personalized ads, using the Google User Messaging Platform (UMP). You can change your consent choices at any time through your device's ad settings.</p>
+
+        <h3>Google Play Billing</h3>
+        <p>The App offers an optional in-app purchase ("Remove Ads") processed through Google Play Billing. When you make a purchase, Google processes the transaction. We receive confirmation of your purchase status (whether the "Remove Ads" entitlement is active) but do not receive or store your payment details (such as credit card numbers). Purchase history is managed by Google Play.</p>
+
+        <h3>Google Play Integrity API &amp; Firebase App Check</h3>
+        <p>The App uses the Google Play Integrity API and Firebase App Check to verify that the App is running on a genuine, unmodified device and was installed from a legitimate source. These services may collect device integrity signals (such as device model, OS version, and Play Services status). This data is used solely for security and anti-tamper purposes and is not used for tracking or advertising.</p>
 
         <h2>2. How We Use Information</h2>
         <p>Any information collected through third-party services is used solely for the following purposes:</p>
         <ul>
-            <li>To provide and maintain the App's features (such as tracking your high scores and displaying leaderboards).</li>
-            <li>To monitor and analyze usage and trends to improve your gaming experience.</li>
+            <li>To provide and maintain the App's features (such as tracking your high scores, displaying leaderboards, and syncing progress across devices).</li>
+            <li>To serve advertisements and measure their effectiveness (for users who have not purchased the "Remove Ads" option).</li>
+            <li>To process in-app purchases and verify purchase entitlements.</li>
+            <li>To verify the integrity and authenticity of the App installation for security purposes.</li>
             <li>To fix bugs and enhance performance.</li>
         </ul>
 
         <h2>3. Third-Party Services</h2>
-        <p>The App uses third-party services that may collect information used to identify you. Please review the privacy policies of these third-party service providers to understand how they handle your data:</p>
+        <p>The App uses the following third-party services that may collect information used to identify you. Please review their respective privacy policies:</p>
         <ul>
-            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
+            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a> (covers Google Play Games, Play Billing, Play Integrity, and Firebase)</li>
+            <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google Advertising Privacy</a> (covers AdMob ad personalization and data use)</li>
             <li><a href="https://policies.google.com/terms" target="_blank" rel="noopener noreferrer">Google Play Terms of Service</a></li>
         </ul>
 
-        <h2>4. Data Security</h2>
+        <h2>4. Ad Personalization &amp; Opt-Out</h2>
+        <p>You can opt out of personalized advertising by adjusting your device's advertising settings:</p>
+        <ul>
+            <li>On Android: Go to <strong>Settings &gt; Google &gt; Ads</strong> and enable "Opt out of Ads Personalization" (or "Delete advertising ID" on Android 12+).</li>
+        </ul>
+        <p>Alternatively, you can remove all ads permanently by purchasing the "Remove Ads" option within the App. Once purchased, the ad SDK is not initialized and no ad-related data is collected.</p>
+
+        <h2>5. Data Security</h2>
         <p>We value your trust in providing us with any necessary information. We strive to use commercially acceptable means of protecting it. However, remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.</p>
 
-        <h2>5. Children's Privacy</h2>
+        <h2>6. Data Retention</h2>
+        <p>Gameplay data (scores, settings, active games) is stored locally on your device and, if you sign in to Google Play Games, in your Google Play Games cloud save. You can delete all local data at any time through the App's Settings ("Delete all data"). Third-party services retain data according to their own retention policies.</p>
+
+        <h2>7. Children's Privacy</h2>
         <p>The App does not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to take necessary actions.</p>
 
-        <h2>6. Changes to This Privacy Policy</h2>
+        <h2>8. Changes to This Privacy Policy</h2>
         <p>We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.</p>
 
-        <h2>7. Contact Us</h2>
+        <h2>9. Contact Us</h2>
         <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at <strong>contact@quarkvortexlabs.com</strong>.</p>
     </div>
 </body>
